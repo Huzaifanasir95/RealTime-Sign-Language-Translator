@@ -1,0 +1,65 @@
+# Project Configuration
+
+# Paths
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  augmented_dir: "data/augmented"
+  test_samples_dir: "data/test_samples"
+
+models:
+  saved_models_dir: "models/saved_models"
+  checkpoints_dir: "models/checkpoints"
+  exports_dir: "models/exports"
+
+# Dataset Configuration
+dataset:
+  name: "ASL_Alphabet"
+  num_classes: 29
+  image_size: [224, 224]
+  batch_size: 32
+  validation_split: 0.15
+  test_split: 0.15
+
+# Training Configuration
+training:
+  epochs: 50
+  learning_rate: 0.001
+  optimizer: "adam"
+  loss: "categorical_crossentropy"
+  metrics: ["accuracy"]
+  early_stopping_patience: 10
+  reduce_lr_patience: 5
+  reduce_lr_factor: 0.5
+
+# Model Configuration
+model:
+  architecture: "MobileNetV2"  # Options: MobileNetV2, EfficientNetB0, ResNet50, Custom
+  use_pretrained: true
+  freeze_base: true
+  dropout_rate: 0.5
+
+# Data Augmentation
+augmentation:
+  rotation_range: 15
+  width_shift_range: 0.1
+  height_shift_range: 0.1
+  zoom_range: 0.1
+  horizontal_flip: false  # Careful with sign language!
+  brightness_range: [0.8, 1.2]
+  fill_mode: "nearest"
+
+# Real-time Detection
+realtime:
+  confidence_threshold: 0.8
+  smoothing_window: 5
+  fps_target: 30
+  camera_id: 0
+  frame_width: 640
+  frame_height: 480
+
+# Text-to-Speech
+tts:
+  enabled: true
+  rate: 150
+  volume: 0.9
