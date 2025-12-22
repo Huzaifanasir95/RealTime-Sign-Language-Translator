@@ -1,6 +1,8 @@
 # Core Deep Learning
-tensorflow>=2.13.0
-keras>=2.13.0
+# Core Deep Learning (PyTorch)
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
 
 # Computer Vision
 opencv-python>=4.8.0
