@@ -226,3 +226,4 @@ venv.bak/
 # Test files (optional - uncomment if needed)
 # test_*.py
 # *_test.py
+/data/processed
