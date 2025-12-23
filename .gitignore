@@ -227,3 +227,4 @@ venv.bak/
 # test_*.py
 # *_test.py
 /data/processed
+models/checkpoints/best_model.pth
