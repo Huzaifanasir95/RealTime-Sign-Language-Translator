@@ -8,8 +8,10 @@
 
 > **A production-ready deep learning system for American Sign Language (ASL) recognition achieving 99.60% accuracy with real-time performance (25-30 FPS) on consumer hardware.**
 
-![Training History](outputs/visualizations/training_history.png)
-![Confusion Matrix](outputs/visualizations/confusion_matrix.png)
+<p align="center">
+  <img src="outputs/visualizations/training_history.png" alt="Training History" width="45%">
+  <img src="outputs/visualizations/confusion_matrix.png" alt="Confusion Matrix" width="45%">
+</p>
 
 ---
 
