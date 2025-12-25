@@ -10,7 +10,6 @@
 
 <p align="center">
   <img src="outputs/visualizations/training_history.png" alt="Training History" width="45%">
-  <img src="outputs/visualizations/confusion_matrix.png" alt="Confusion Matrix" width="45%">
 </p>
 
 ---
