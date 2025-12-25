@@ -8,10 +8,8 @@
 
 > **A production-ready deep learning system for American Sign Language (ASL) recognition achieving 99.60% accuracy with real-time performance (25-30 FPS) on consumer hardware.**
 
-<p align="center">
-  <img src="./outputs/visualizations/training_history.png" alt="Training History" width="45%">
-  <img src="./outputs/visualizations/confusion_matrix.png" alt="Confusion Matrix" width="45%">
-</p>
+![Training History](outputs/visualizations/training_history.png)
+![Confusion Matrix](outputs/visualizations/confusion_matrix.png)
 
 ---
 
@@ -494,9 +492,7 @@ Total Latency: 30-35 ms (25-30 FPS)
 
 ### Confusion Matrix
 
-<p align="center">
-  <img src="./outputs/visualizations/confusion_matrix.png" alt="Confusion Matrix" width="70%">
-</p>
+![Confusion Matrix](outputs/visualizations/confusion_matrix.png)
 
 **Key Insights:**
 - Strong diagonal dominance (excellent class discrimination)
@@ -505,9 +501,7 @@ Total Latency: 30-35 ms (25-30 FPS)
 
 ### Sample Predictions
 
-<p align="center">
-  <img src="./outputs/visualizations/sample_predictions.png" alt="Sample Predictions" width="90%">
-</p>
+![Sample Predictions](outputs/visualizations/sample_predictions.png)
 
 **Observations:**
 - High confidence (>99%) for most predictions
