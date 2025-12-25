@@ -113,13 +113,6 @@ outputs/logs/*.txt
 *.log
 
 # Metrics and outputs
-outputs/metrics/*.json
-outputs/metrics/*.csv
-outputs/visualizations/*.png
-outputs/visualizations/*.jpg
-outputs/visualizations/*.jpeg
-outputs/visualizations/*.svg
-outputs/visualizations/*.pdf
 
 # Keep output directory structure
 !outputs/logs/.gitkeep
