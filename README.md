@@ -767,8 +767,8 @@ copies or substantial portions of the Software.
 
 - 📧 Email: [nasirhuzaifa95@gmail.com](mailto:nasirhuzaifa95@gmail.com)
 - 💼 GitHub: [@Huzaifanasir95](https://github.com/Huzaifanasir95)
-- 🔗 LinkedIn: [Connect with me](https://www.linkedin.com/in/huzaifanasir95)
-- 🌐 Portfolio: [View my work](https://github.com/Huzaifanasir95)
+- 🔗 LinkedIn: [Connect with me](www.linkedin.com/in/huzaifa-nasir-)
+- 🌐 Portfolio: [View my work](https://huzaifa-nasir-portfolio.vercel.app)
 
 ### Repository
 
@@ -778,16 +778,7 @@ copies or substantial portions of the Software.
 
 ---
 
-## 🌟 Star History
-
-If you find this project useful, please consider giving it a ⭐ on GitHub!
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Huzaifanasir95/RealTime-Sign-Language-Translator&type=Date)](https://star-history.com/#Huzaifanasir95/RealTime-Sign-Language-Translator&Date)
-
----
-
 <p align="center">
-  <b>Made with ❤️ for accessibility and inclusion</b>
   <br>
   <i>Breaking communication barriers, one sign at a time</i>
 </p>
